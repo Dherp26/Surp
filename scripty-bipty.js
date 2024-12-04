@@ -147,12 +147,12 @@ function drawText() {
     }
     if(frameNumber > 1500 && frameNumber < 1750){
         context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
-        context.fillText("我愛你，真的愛你，崇拜你", "並且非常珍惜你，對你充滿感激", canvas.width/2, canvas.height/2);
+        context.fillText("我愛你真的愛你 崇拜你並且非常珍惜你 對你充滿感激", canvas.width/2, canvas.height/2);
         opacity = opacity + 0.01;
     }
     if(frameNumber >= 1750 && frameNumber < 2000){
         context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
-        context.fillText("我愛你，真的愛你，崇拜你", "並且非常珍惜你，對你充滿感激", canvas.width/2, canvas.height/2);
+        context.fillText("我愛你真的愛你 崇拜你並且非常珍惜你 對你充滿感激", canvas.width/2, canvas.height/2);
         opacity = opacity - 0.01;
     }
 
